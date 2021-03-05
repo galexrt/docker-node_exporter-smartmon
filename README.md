@@ -31,6 +31,11 @@ Any flags / args given to the container are passed to the `SCRIPT` that will be 
 
 A Grafana dashboard for viewing the exported metrics can be found on [Grafana.com - Smartmon Textfile by Galexrt](https://grafana.com/dashboards/3992) and in the [`grafana/`](grafana/) directory.
 
+Tested against Grafana version 6.1.6 and schema version 18
+
+### Screenshots  
+![Disk and Airflow Temperatures](media/disk-airflow-temps.png?raw=true "Disk and Airflow Temps")
+
 ## Kubernetes
 
 The [`kubernetes/`](kubernetes/) directory contains an example DaemonSet for your Kubernetes cluster.
